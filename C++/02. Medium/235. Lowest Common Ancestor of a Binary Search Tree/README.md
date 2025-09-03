@@ -2,7 +2,7 @@
 Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.<br>
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
-## 💡 思路 (Approach)
+## Approach
 - 利用 BST 的特性：
   1. 若 p 和 q 都小於當前節點，LCA 在左子樹。
   2. 若 p 和 q 都大於當前節點，LCA 在右子樹。
@@ -11,7 +11,7 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 
 ---
 
-## 📊 表現 (Performance)
+## Performance
 - **Time Complexity:** O(h) ，h 為樹高  
 - **Space Complexity:** O(1)  
 - 在 LeetCode 上測資的執行表現：  
