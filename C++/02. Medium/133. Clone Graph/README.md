@@ -3,7 +3,7 @@ Given a reference of a node in a connected undirected graph.<br>
 Return a deep copy (clone) of the graph.<br>
 Each node in the graph contains a value (int) and a list (List[Node]) of its neighbors.
 
-## 💡 思路 (Approach)
+## Approach
 - 使用 **深度優先搜索 (DFS)** 遞迴複製每個節點與其鄰居。  
 - 使用 `unordered_map<Node*, Node*> visited` 記錄已經複製的節點，避免重複複製和無限循環。  
 - 遞迴步驟：
@@ -15,7 +15,7 @@ Each node in the graph contains a value (int) and a list (List[Node]) of its nei
 
 ---
 
-## 📊 表現 (Performance)
+## Performance
 - **Time Complexity:** O(V + E)，V 為節點數，E 為邊數  
 - **Space Complexity:** O(V)，用於 `visited` map 和遞迴堆疊  
 - 在 LeetCode 上測資的執行表現：  
