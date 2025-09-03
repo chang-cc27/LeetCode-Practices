@@ -1,4 +1,5 @@
 # LeetCode 3. Longest Substring Without Repeating Characters
+Given a string s, find the length of the longest substring without duplicate characters.
 
 ## Approach
 - 使用 **滑動視窗 (Sliding Window)** 搭配 `unordered_set` 記錄目前子串中出現過的字元。  
