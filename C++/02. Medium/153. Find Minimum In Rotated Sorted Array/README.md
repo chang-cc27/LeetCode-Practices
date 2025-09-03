@@ -20,4 +20,5 @@ You must write an algorithm that runs in O(log n) time.
 - **Time Complexity:** O(log n)  
 - **Space Complexity:** O(1)  
 - 在 LeetCode 上測資的執行表現：  
-  - Runtime: **XX ms**, faster than **YY%** of C++ submissions  
+  - Runtime: **0 ms**, faster than **100%** of C++ submissions  
+  - Memory: **14.18 MB**, less than **49.15%** of C++ submissions  
