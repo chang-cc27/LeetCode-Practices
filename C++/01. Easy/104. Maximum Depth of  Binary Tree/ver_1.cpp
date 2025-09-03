@@ -20,7 +20,7 @@ public:
         int depth = 0;
 
         while (!q.empty()) {
-            int size = q.size();  // 這層節點數 <==重點在這:有暨個點，for回圈跑幾次。
+            int size = q.size();  // 這層節點數 <==重點在這:有幾個點，for迴圈跑幾次。
             for (int i = 0; i < size; i++) {
                 TreeNode* node = q.front();
                 q.pop();
