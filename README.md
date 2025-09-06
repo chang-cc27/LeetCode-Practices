@@ -9,5 +9,5 @@ Planned: Add Python content in future commits.
 ## Progress (Still Updating)
 C++:<br>
  - Easy: 11<br>
- - Medium: 21<br>
- - Hard: 1<br>
+ - Medium: 22<br>
+ - Hard: 3<br>
