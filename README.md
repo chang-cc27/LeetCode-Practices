@@ -1,4 +1,4 @@
-# LeetCode-Solutions
+# LeetCode-Practices
 Practice solutions.<br>
 Currently focusing on improving problem-solving skills and writing cleaner code.
 
