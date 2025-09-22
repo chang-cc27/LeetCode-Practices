@@ -1,7 +1,7 @@
 # LeetCode 5. Longest Palindromic Substring
 Given a string s, return the longest palindromic substring in s.
 
-## 💡 思路 (Approach)
+## Approach
 - 使用 **中心擴展法 (Expand Around Center)**：每個字元或每對相鄰字元都可能是回文中心。  
 - 對於每個位置 `i`：  
   1. 若 `s[i] == s[i+1]`，嘗試以這對字元為中心向外擴展。  
@@ -11,7 +11,7 @@ Given a string s, return the longest palindromic substring in s.
 
 ---
 
-## 📊 表現 (Performance)
+## Performance
 - **Time Complexity:** O(n²)  
 - **Space Complexity:** O(1)  
 - 在 LeetCode 上測資的執行表現：  
