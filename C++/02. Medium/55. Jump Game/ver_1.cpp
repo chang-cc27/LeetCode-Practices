@@ -1,24 +1,18 @@
 class Solution {
 public:
-    bool search(vector<int>& nums, int end) {
-        for(int i=1; i<=end; i++) {
-            if(nums[end-i] >= i) {
-                if(end-i == 0) {
-                    return true;
-                }
-                else {
-                    return search(nums, end-i);
-                }
-            }
-        }
-        return false;
-    }
     bool canJump(vector<int>& nums) {
         int n = nums.size();
-        if (n == 1) {
-            return true;
-        }
+        int furthest = 0;
 
-        return search(nums, n-1);
+        for (int i=0; i<n; i++) {
+            if (i > furthest) {
+                return false;
+            }
+            furthest = max(furthest, i+nums[i]);
+            if(furthest >= (n-1)) {
+                return true;
+            }
+        }
+        return true;
     }
 };
